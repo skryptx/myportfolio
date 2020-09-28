@@ -1,0 +1,150 @@
+/************************TAG SELECTORS**************************/
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    margin-top: 50px;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: none;
+    border-top: dotted 6px #EAF6F6;
+    width: 4%;
+    margin: 50px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/************************CLASS SELECTORS**************************/
+.reset-default-margins {
+    margin: 0;
+}
+
+.top-container {
+    background-color: #f1f3f8;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+    margin: 50px auto 0;
+    background-color: #f1f3f8;
+    padding: 50px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 25px;
+    right: 250px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.profile-pic {
+    margin-top: 50px;
+}
+
+.description {
+    width: 35%;
+    margin: auto;
+    color: #40514E;
+    text-align: justify;
+}
+
+.skills-icons {
+    margin: 0 10px;
+    width: 12%;
+}
+
+.programmer {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.contact-me-link {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 0px;
+    line-height: 0px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width: 131px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 21px;
+    background-color: #66BFBF;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.social-links-container {
+    margin: 0 auto 30px;
+}
+
+.social-links {
+    margin: 5px;
+}
+
+.copyright {
+    margin: 0 auto;
+    color: #66bfbf;
+    width: 12%;
+}
+
+.copyright-desc {
+    margin-bottom: 2px;
+}
+
+.copyright-symbol {
+    float: left;
+    margin: 3px auto;
+}
+
+/************************ID SELECTORS**************************/
