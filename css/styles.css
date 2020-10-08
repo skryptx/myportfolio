@@ -1,14 +1,15 @@
 /************************TAG SELECTORS**************************/
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
 h1 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 5.62rem;
     margin-top: 50px;
-    color: #66BFBF;
+    color: #bdffff;
 }
 
 h2 {
@@ -36,16 +37,80 @@ p {
     line-height: 2;
 }
 
-/************************CLASS SELECTORS**************************/
+/* Navbar */
+.navbar-parent-large {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+}
+
+.navbar-custom{
+    padding: 10px 23px 10px;
+    background-color: #fff;
+}
+
+.nav-title{
+    color: #66BFBF;
+}
+
+.nav-subtitle{
+    color: #9e9999;
+    font-size: 1rem;
+}
+
+.nav-brand{
+    border-bottom: groove 3px rgb(255 255 255 / 50%);
+}
+
+.nav-item-list {
+    padding: 10px;
+}
+
+.navbar-toggler{
+    float: left;
+}
+
+/* Title */
+@media (min-width: 1000px) {
+ .body-parent {
+     width: 84%;
+     float: right;
+ }
+ .navbar-parent-large {
+     display: block;
+     width: 15%;
+ }
+ .navbar-parent-small {
+     display: none;
+ }
+}
+
+@media (max-width: 1000px) {
+ .body-parent {
+     width: 100%;
+     float: none;
+ }
+ .navbar-parent-large {
+     display: none;
+ }
+ .navbar-parent-small{
+     display: block;
+ }
+ .nav-item-list {
+     padding: 10px;
+     margin: auto;
+ }
+}
+
 .reset-default-margins {
     margin: 0;
 }
 
 .top-container {
-    background-color: #f1f3f8;
-    text-align: center;
+    background-color: #0f3057;
+    text-align: left;
     position: relative;
-    padding: 100px;
+    padding: 100px 100px 350px;
 }
 
 .middle-container {}
@@ -58,17 +123,6 @@ p {
 
 .pro {
     text-decoration: underline;
-}
-
-.top-cloud {
-    position: absolute;
-    top: 25px;
-    right: 250px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 350px;
 }
 
 .circular {
