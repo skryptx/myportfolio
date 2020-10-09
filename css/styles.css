@@ -7,19 +7,19 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 5.62rem;
+    font-size: 4rem;
     margin-top: 50px;
     color: #bdffff;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #66BFBF;
+    color: #0f3057;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #0f3057;
 }
 
 a {
@@ -45,17 +45,19 @@ p {
 }
 
 .navbar-custom{
-    padding: 10px 23px 10px;
+    padding: 10px 2px 10px 17px;
     background-color: #fff;
 }
 
 .nav-title{
-    color: #66BFBF;
+    color: #0f3057;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .nav-subtitle{
     color: #9e9999;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .nav-brand{
@@ -63,7 +65,8 @@ p {
 }
 
 .nav-item-list {
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
 }
 
 .navbar-toggler{
@@ -83,35 +86,74 @@ p {
  .navbar-parent-small {
      display: none;
  }
+ .nav-item-list:first-child{
+     border-bottom: groove 2px;
+ }
 }
 
 @media (max-width: 1000px) {
+ h1{
+     font-size: 2rem;
+ }
+ h2{
+     font-size: 1.5rem;
+     line-height: 1.6;
+ }
  .body-parent {
      width: 100%;
      float: none;
+     margin-top: 8rem;
  }
  .navbar-parent-large {
      display: none;
  }
  .navbar-parent-small{
-     display: block;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
  }
  .nav-item-list {
      padding: 10px;
      margin: auto;
+ }
+ .nav-item-list h4, .nav-item-list h5 {
+     text-align: center;
+ }
+ .navbar-toggler-icon {
+     float: left;
+     margin: 32px 0px;
+ }
+ .navbar-toggler {
+     width: 100%;
+ }
+ button:focus {
+    outline: 1px groove;
+    /* outline: 5px auto -webkit-focus-ring-color; */
  }
 }
 
 .reset-default-margins {
     margin: 0;
 }
-
+/* COMMON */
+.heading {
+    text-align: left;
+    color: #fff;
+    background-color: #000000;
+    margin: 0 0 5rem;
+    padding: 2rem 2rem;
+}
+/* ABOUT SECTION */
 .top-container {
     background-color: #0f3057;
     text-align: left;
     position: relative;
     padding: 100px 100px 350px;
 }
+
 
 .middle-container {}
 
@@ -130,14 +172,19 @@ p {
 }
 
 .profile-pic {
-    margin-top: 50px;
+    margin-top: -15px;
+    padding: 0 50px;
+    float: left;
+    width: 16rem;
+    height: 10rem;
 }
 
 .description {
-    width: 35%;
-    margin: auto;
+    width: 95%;
+    margin: 0 auto 5rem;
     color: #40514E;
-    text-align: justify;
+    font-size: 125%;
+    text-align: left;
 }
 
 .skills-icons {
