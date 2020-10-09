@@ -93,7 +93,7 @@ p {
 
 @media (max-width: 1000px) {
  h1{
-     font-size: 2rem;
+     font-size: 4.5rem;
  }
  h2{
      font-size: 1.5rem;
@@ -122,13 +122,27 @@ p {
  .nav-item-list h4, .nav-item-list h5 {
      text-align: center;
  }
+ .nav-title {
+     font-size: 3rem;
+ }
+ .nav-subtitle {
+     font-size: 2rem;
+ }
  .navbar-toggler-icon {
      float: left;
-     margin: 32px 0px;
+     margin: 44px 0px 32px;
+     padding: 2rem;
  }
  .navbar-toggler {
      width: 100%;
  }
+ .navbar-nav li{
+     font-size: 2rem;
+ }
+ .top-container {
+    text-align: center;
+    height: 1134px;
+}
  button:focus {
     outline: 1px groove;
     /* outline: 5px auto -webkit-focus-ring-color; */
