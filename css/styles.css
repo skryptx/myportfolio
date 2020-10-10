@@ -22,15 +22,25 @@ h3 {
     color: #0f3057;
 }
 
+h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0f3057;
+}
+
+h6{
+    font-size: 1.3rem;
+    color: #b3b3b3;
+}
+
 a {
     color: #11999E;
 }
 
 hr {
     border: none;
-    border-top: dotted 6px #EAF6F6;
-    width: 4%;
-    margin: 50px auto;
+    border-top: dotted 6px #d4d4d4;
+    width: 5%;
+    margin: 20px auto;
 }
 
 p {
@@ -74,11 +84,15 @@ p {
 }
 
 /* Title */
-@media (min-width: 1000px) {
+
  .body-parent {
      width: 84%;
      float: right;
- }
+     background-color: #f9f8f9;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%235da4a7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+@media (min-width: 1000px) {
  .navbar-parent-large {
      display: block;
      width: 15%;
@@ -92,12 +106,24 @@ p {
 }
 
 @media (max-width: 1000px) {
- h1{
+ h1 {
      font-size: 4.5rem;
  }
- h2{
-     font-size: 1.5rem;
+ h2 {
+     font-size: 3rem;
      line-height: 1.6;
+ }
+ h4 {
+    font-size: 2rem;
+ }
+ h5 {
+    font-size: 1.8rem;
+ }
+ h6 {
+    font-size: 2.5rem;
+ }
+ .heading {
+     font-size: 3rem;
  }
  .body-parent {
      width: 100%;
@@ -141,7 +167,16 @@ p {
  }
  .top-container {
     text-align: center;
-    height: 1134px;
+    height: 100vh;
+}
+.description {
+    font-size: 200%!important;
+}
+.profile {
+    height: 130vh;
+}
+.card-list {
+    font-size: 2rem!important;
 }
  button:focus {
     outline: 1px groove;
@@ -160,6 +195,8 @@ p {
     margin: 0 0 5rem;
     padding: 2rem 2rem;
 }
+
+
 /* ABOUT SECTION */
 .top-container {
     background-color: #0f3057;
@@ -167,6 +204,38 @@ p {
     position: relative;
     padding: 100px 100px 350px;
 }
+.profile {
+    height: 100vh;
+}
+
+/* EXPERIENCE SECTION */
+.experience-card {
+    width: 80%;
+    margin: 5% 10%;
+    text-align: left;
+}
+.card-header {
+    background-color: #fff;
+}
+.card-company {
+    width: 49%;
+    float: left;
+}
+.card-role {
+    text-align: right;
+    color: #99a3af;
+    margin-top: 10px;
+}
+.card-list {
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.company-logo {
+    width: 5%;
+    margin: 0 10px;
+}
+
+
 
 
 .middle-container {}
@@ -175,10 +244,6 @@ p {
     margin: 50px auto 0;
     background-color: #f1f3f8;
     padding: 50px 0;
-}
-
-.pro {
-    text-decoration: underline;
 }
 
 .circular {
