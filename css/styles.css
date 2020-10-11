@@ -183,6 +183,9 @@ p {
 .card-body img {
     width: 10rem!important;
 }
+.skills-card .card-body {
+    font-size: 2rem!important;
+}
  button:focus {
     outline: 1px groove;
     /* outline: 5px auto -webkit-focus-ring-color; */
@@ -203,6 +206,9 @@ p {
 
 
 /* ABOUT SECTION */
+.underline {
+    border-bottom: 2px solid;
+}
 .top-container {
     background-color: #0f3057;
     text-align: left;
@@ -212,15 +218,10 @@ p {
 .profile {
     height: 100vh;
 }
-.circular {
-    border-radius: 50%;
-}
-.profile-pic {
-    margin-top: -15px;
-    padding: 0 50px;
-    float: left;
-    width: 16rem;
-    height: 10rem;
+.self-description {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 25px;
 }
 .description {
     width: 95%;
@@ -260,6 +261,9 @@ p {
 
 
 /* Education Section */
+.education {
+    height: 100vh;
+}
 .education-card {
     width: 90%;
     margin: 5% 4%;
@@ -284,27 +288,57 @@ p {
     text-align: left;
     padding: 2% 5%;
 }
-.card-body img {
-    width: 6rem;
+.skills-card .card-body {
+    text-align: center;
+    font-size: 1rem;
+}
+.skills-icons {
+    width: 70%;
     margin: 3% 5% 3% 3%;
 }
-
+.skills-card img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.img-padding-1 {
+    padding-top: 46px;
+}
+.img-padding-2 {
+    padding-top: 18px;
+}
+.img-padding-3 {
+    padding-top: 50px;
+}
 
 /* Contact Section */
+.contact {
+    height: 100vh;
+}
 .contact-container {
     padding: 0% 15% 10% 15%;
     text-align: left;
     font-size: 2rem;
 }
-.social-links {
-    margin: 5px;
-}
 .social-links:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+.social-links span:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
     color: #11999E;
 }
 .social-links i {
     margin: 2px 10px;
+    border-radius: 50%;
+    border: solid 2px;
+    font-size: 2rem;
+    background-color: #11999E;
+    padding: 14px;
+    color: white;
 }
 
 /************************ID SELECTORS**************************/
