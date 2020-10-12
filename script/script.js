@@ -19,4 +19,10 @@ $(document).ready(function(){
         $('.navbar > ul > li > a').removeClass('active');
         $(this).addClass('active');
     });
+    $(".social-links i").hover(function(){
+        $(this).parent().find("span").addClass("glyphicon-hover");
+    });
+    $(".social-links i").mouseleave(function(){
+        $(this).parent().find("span").removeClass("glyphicon-hover");
+    });
 });

@@ -338,6 +338,9 @@ p {
     border-bottom: 2px solid;
     color: #11999E;
 }
+.social-links i:hover {
+    text-decoration: none;
+}
 .social-links i {
     margin: 2px 10px;
     border-radius: 50%;
@@ -347,5 +350,13 @@ p {
     padding: 14px;
     color: white;
 }
+.social-links span {
+    cursor: pointer!important;
+}
+.glyphicon-hover {
+    border-bottom: 2px solid;
+    color: #11999E;   
+}
+
 
 /************************ID SELECTORS**************************/
