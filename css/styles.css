@@ -53,34 +53,36 @@ p {
     padding-right: 0px;
     position: fixed;
 }
-
 .navbar-custom{
     padding: 10px 2px 10px 17px;
     background-color: #fff;
 }
-
 .nav-title{
     color: #0f3057;
     font-size: 22px;
     font-weight: bold;
 }
-
 .nav-subtitle{
     color: #9e9999;
     font-size: 14px;
 }
-
 .nav-brand{
     border-bottom: groove 3px rgb(255 255 255 / 50%);
 }
-
 .nav-item-list {
-    padding: 10px 10px 10px 20px;
+    padding: 10px 0px 10px 0px;
     text-align: left;
 }
-
+.nav-item-list a{
+    padding-left: 20px!important;
+    padding-right: 10px;
+}
 .navbar-toggler{
     float: left;
+}
+.active {
+    background-color: #fafafa;
+    border-left: 3px solid;
 }
 
 /* Title */
@@ -185,6 +187,11 @@ p {
 }
 .skills-card .card-body {
     font-size: 2rem!important;
+}
+.nav-link {
+    color: rgba(0,0,0,.9)!important;
+    border: 0px;
+    background-color: #ffffff;
 }
  button:focus {
     outline: 1px groove;
