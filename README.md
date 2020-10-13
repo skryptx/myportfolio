@@ -1,1 +1,5 @@
-# myportfolio v #1 : This is the initial draft of my portfolio. More to come!
+# myportfolio
+
+[![version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://singla-s.github.io/myportfolio)
+
+
